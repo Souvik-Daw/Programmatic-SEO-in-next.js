@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "react-portfolio-delhi",
+    "title": "React Developer in Delhi",
+    "description": "Hire React developers in Delhi for stunning portfolio websites.",
+    "tech": "React",
+    "location": "Delhi",
+    "category": "Portfolio"
+  },
+  {
+    "slug": "mern-ecommerce-india",
+    "title": "MERN Ecommerce Devs India",
+    "description": "Full-stack ecommerce developers in India using MERN stack.",
+    "tech": "MERN",
+    "location": "India",
+    "category": "Ecommerce"
+  },
+  {
+    "slug": "mern-ecommerce-india2",
+    "title": "MERN Ecommerce Devs India",
+    "description": "Full-stack ecommerce developers in India using MERN stack.",
+    "tech": "MERN",
+    "location": "India",
+    "category": "Ecommerce"
+  },
+  {
+    "slug": "mern-ecommerce-india3",
+    "title": "MERN Ecommerce Devs India",
+    "description": "Full-stack ecommerce developers in India using MERN stack.",
+    "tech": "MERN",
+    "location": "India",
+    "category": "Ecommerce"
+  },
+  {
+    "slug": "mern-ecommerce-india4",
+    "title": "MERN Ecommerce Devs India",
+    "description": "Full-stack ecommerce developers in India using MERN stack.",
+    "tech": "MERN",
+    "location": "India",
+    "category": "Ecommerce"
+  },
+  {
+    "slug": "mern-ecommerce-india5",
+    "title": "MERN Ecommerce Devs India",
+    "description": "Full-stack ecommerce developers in India using MERN stack.",
+    "tech": "MERN",
+    "location": "India",
+    "category": "Ecommerce"
+  }
+]
