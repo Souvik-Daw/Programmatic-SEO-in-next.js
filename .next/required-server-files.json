@@ -4,7 +4,7 @@
     "env": {},
     "webpack": null,
     "eslint": {
-      "ignoreDuringBuilds": false
+      "ignoreDuringBuilds": true
     },
     "typescript": {
       "ignoreBuildErrors": false,
@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\User Data\\Downloads\\kodinghub",
+    "outputFileTracingRoot": "D:\\User Data\\Downloads\\kodinghub - Copy",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -280,10 +280,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "D:\\User Data\\Downloads\\kodinghub"
+      "root": "D:\\User Data\\Downloads\\kodinghub - Copy"
     }
   },
-  "appDir": "D:\\User Data\\Downloads\\kodinghub",
+  "appDir": "D:\\User Data\\Downloads\\kodinghub - Copy",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

@@ -1,50 +1,86 @@
 [
   {
-    "slug": "react-portfolio-delhi",
-    "title": "React Developer in Delhi",
-    "description": "Hire React developers in Delhi for stunning portfolio websites.",
-    "tech": "React",
-    "location": "Delhi",
-    "category": "Portfolio"
+    "slug": "react-roadmap",
+    "title": "React Roadmap: A Complete Guide [2025 Updated]",
+    "description": "A detailed and updated guide to mastering React in 2025.",
+    "sections": [
+      {
+        "heading": "What is React?",
+        "content": "React is an efficient and flexible JavaScript library...",
+        "links": [
+          { "text": "Virtual DOM", "href": "https://reactjs.org/docs/faq-internals.html" }
+        ]
+      },
+      {
+        "heading": "Why React?",
+        "content": "React is a top choice for developers because..."
+      },
+      {
+        "heading": "1. React Basics",
+        "content": "JSX is at the core of React, letting you write HTML + JS..."
+      },
+      {
+        "heading": "4. Routing in React",
+        "content": "Routing in React refers to navigating views without refresh...",
+        "links": [
+          { "text": "React JS Router", "href": "#" },
+          { "text": "What is react-router-dom?", "href": "#" },
+          { "text": "What is react-router-dom?", "href": "#" },
+          { "text": "What is react-router-dom?", "href": "#" }
+        ]
+      },
+      {
+        "heading": "4. Routing in React",
+        "content": "Routing in React refers to navigating views without refresh...",
+        "links": [
+          { "text": "React JS Router", "href": "#" },
+          { "text": "What is react-router-dom?"},
+          { "text": "What is react-router-dom?" },
+          { "text": "What is react-router-dom?"}
+        ]
+      }
+    ]
   },
   {
-    "slug": "mern-ecommerce-india",
-    "title": "MERN Ecommerce Devs India",
-    "description": "Full-stack ecommerce developers in India using MERN stack.",
-    "tech": "MERN",
-    "location": "India",
-    "category": "Ecommerce"
-  },
-  {
-    "slug": "mern-ecommerce-india2",
-    "title": "MERN Ecommerce Devs India",
-    "description": "Full-stack ecommerce developers in India using MERN stack.",
-    "tech": "MERN",
-    "location": "India",
-    "category": "Ecommerce"
-  },
-  {
-    "slug": "mern-ecommerce-india3",
-    "title": "MERN Ecommerce Devs India",
-    "description": "Full-stack ecommerce developers in India using MERN stack.",
-    "tech": "MERN",
-    "location": "India",
-    "category": "Ecommerce"
-  },
-  {
-    "slug": "mern-ecommerce-india4",
-    "title": "MERN Ecommerce Devs India",
-    "description": "Full-stack ecommerce developers in India using MERN stack.",
-    "tech": "MERN",
-    "location": "India",
-    "category": "Ecommerce"
-  },
-  {
-    "slug": "mern-ecommerce-india5",
-    "title": "MERN Ecommerce Devs India",
-    "description": "Full-stack ecommerce developers in India using MERN stack.",
-    "tech": "MERN",
-    "location": "India",
-    "category": "Ecommerce"
+    "slug": "node-roadmap",
+    "title": "node Roadmap: A Complete Guide [2025 Updated]",
+    "description": "A detailed and updated guide to mastering React in 2025.",
+    "sections": [
+      {
+        "heading": "What is React?",
+        "content": "React is an efficient and flexible JavaScript library...",
+        "links": [
+          { "text": "Virtual DOM", "href": "https://reactjs.org/docs/faq-internals.html" }
+        ]
+      },
+      {
+        "heading": "Why React?",
+        "content": "React is a top choice for developers because..."
+      },
+      {
+        "heading": "1. React Basics",
+        "content": "JSX is at the core of React, letting you write HTML + JS..."
+      },
+      {
+        "heading": "4. Routing in React",
+        "content": "Routing in React refers to navigating views without refresh...",
+        "links": [
+          { "text": "React JS Router", "href": "#" },
+          { "text": "What is react-router-dom?", "href": "#" },
+          { "text": "What is react-router-dom?", "href": "#" },
+          { "text": "What is react-router-dom?", "href": "#" }
+        ]
+      },
+      {
+        "heading": "4. Routing in React",
+        "content": "Routing in React refers to navigating views without refresh...",
+        "links": [
+          { "text": "React JS Router", "href": "#" },
+          { "text": "What is react-router-dom?"},
+          { "text": "What is react-router-dom?" },
+          { "text": "What is react-router-dom?"}
+        ]
+      }
+    ]
   }
 ]
