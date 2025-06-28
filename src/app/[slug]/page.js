@@ -16,6 +16,7 @@ export async function generateStaticParams() {
 }
 
 export default async function SEOPage(props) {
+
   const { slug } = await props.params;
   const page = pages.find((p) => p.slug === slug);
 
@@ -67,7 +68,7 @@ export default async function SEOPage(props) {
               <div className="w-full lg:w-1/3 hidden lg:block">
                 <img
                   src="https://images.unsplash.com/photo-1628258334105-2a0b3d6efee1?q=80&w=387&auto=format&fit=crop"
-                  alt="Left Image"
+                  alt="blog page image left side coding development programming"
                   className="w-full h-full object-cover rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
                 />
               </div>
@@ -76,12 +77,12 @@ export default async function SEOPage(props) {
               <div className="w-full lg:w-2/3 flex flex-col gap-6">
                 <img
                   src="https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=870&auto=format&fit=crop"
-                  alt="Top Right Image"
+                  alt="blog page image top right side coding development programming"
                   className="w-full h-60 object-cover rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
                 />
                 <img
                   src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=870&auto=format&fit=crop"
-                  alt="Bottom Right Image"
+                  alt="blog page image bottom right side coding development programming"
                   className="w-full h-60 object-cover rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hidden md:block"
                 />
               </div>
@@ -169,4 +170,18 @@ export default async function SEOPage(props) {
       </main>
     </>
   );
+}
+
+
+
+export async function generateMetadata( props ) {
+  const { slug } = await props.params;
+  const page = pages.find((p) => p.slug === slug);
+
+  if (!page) return { title: 'Page Not Found' };
+
+  return {
+    title: page.title,
+    description: page.description,
+  };
 }

@@ -97,7 +97,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "D:\\User Data\\Downloads\\kodinghub - Copy",
+    "outputFileTracingRoot": "D:\\User Data\\Downloads\\kodinghub",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -280,10 +280,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "D:\\User Data\\Downloads\\kodinghub - Copy"
+      "root": "D:\\User Data\\Downloads\\kodinghub"
     }
   },
-  "appDir": "D:\\User Data\\Downloads\\kodinghub - Copy",
+  "appDir": "D:\\User Data\\Downloads\\kodinghub",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
