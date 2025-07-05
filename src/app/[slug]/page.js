@@ -115,8 +115,20 @@ export default async function SEOPage(props) {
                     ))}
                   </ul>
                 )}
+
+                {section.code && (
+                  <pre className="bg-[#1e293b] text-white p-4 rounded-xl mt-4 overflow-auto text-sm border border-[#334155] shadow-md">
+                    <pre className="bg-gray-900 text-green-400 p-4 rounded-lg overflow-auto text-sm">
+                      <code>{section.code}</code>
+                    </pre>
+                  </pre>
+                )}
+
               </section>
             ))}
+
+
+
           </div>
         </div>
 
@@ -174,7 +186,7 @@ export default async function SEOPage(props) {
 
 
 
-export async function generateMetadata( props ) {
+export async function generateMetadata(props) {
   const { slug } = await props.params;
   const page = pages.find((p) => p.slug === slug);
 
