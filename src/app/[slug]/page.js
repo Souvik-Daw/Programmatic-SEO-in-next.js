@@ -3,7 +3,8 @@ import path from 'path';
 import { notFound } from 'next/navigation';
 import Head from 'next/head';
 
-export const dynamic = 'force-static';
+// export const runtime = 'edge';
+// export const dynamic = 'force-dynamic';
 
 const pages = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), 'data', 'pages.json'), 'utf8')

@@ -33,6 +33,7 @@ export default function HomePage({ pages }) {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPages.map((page) => (
             <Link href={`/${page.slug}`} key={page.slug}>
+            {/* <Link href={`/${page.slug}.html`} key={page.slug}> */} 
               <div className="bg-gray-800 border border-gray-700 rounded-xl shadow-md hover:shadow-xl transition duration-300 p-6 cursor-pointer">
                 <h2 className="text-lg font-semibold mb-2">{page.title}</h2>
                 <p className="text-sm line-clamp-3 text-gray-300">{page.description}</p>
