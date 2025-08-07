@@ -139,7 +139,7 @@ export default async function SEOPage(props) {
                     .map((relatedPage) => (
                       <a
                         key={relatedPage.slug}
-                        href={`/${relatedPage.slug}`}
+                        href={`/${relatedPage.slug}.html`}
                         className="bg-gray-800 border border-gray-700 rounded-xl shadow-md hover:shadow-xl transition duration-300 p-6 block"
                       >
                         <h2 className="text-lg font-semibold mb-2">{relatedPage.title}</h2>
