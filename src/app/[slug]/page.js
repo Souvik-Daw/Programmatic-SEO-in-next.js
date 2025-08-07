@@ -130,6 +130,29 @@ export default async function SEOPage(props) {
 
 
 
+            {page.related && page.related.length > 0 && (
+              <div className="mt-20">
+                <h2 className="text-2xl font-bold mb-6">Related Blogs</h2>
+                <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                  {pages
+                    .filter(p => page.related.includes(p.slug))
+                    .map((relatedPage) => (
+                      <a
+                        key={relatedPage.slug}
+                        href={`/${relatedPage.slug}`}
+                        className="bg-gray-800 border border-gray-700 rounded-xl shadow-md hover:shadow-xl transition duration-300 p-6 block"
+                      >
+                        <h2 className="text-lg font-semibold mb-2">{relatedPage.title}</h2>
+                        <p className="text-sm line-clamp-3 text-gray-300">{relatedPage.description}</p>
+                      </a>
+                    ))}
+                </div>
+              </div>
+            )}
+
+
+
+
           </div>
         </div>
 
